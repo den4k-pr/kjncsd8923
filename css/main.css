@@ -1370,17 +1370,7 @@ background-clip: text;
 }
 
 
-@media (max-width: 380px) {
-    .s5__badge {
-        right: 4.36vw;
-    }
-}
 
-@media (max-width: 400px) {
-    .s5__badge {
-        right: 6.36vw;
-    }
-}
 
 @media (max-width: 440px) {
     .s1 {
@@ -2069,5 +2059,19 @@ background-clip: text;
     .gallery-pagination .swiper-pagination-bullet {
         width: 2.73vw;
         height: 2.73vw;
+    }
+}
+
+
+
+@media (max-width: 400px) {
+    .s5__badge {
+        right: 6.36vw;
+    }
+}
+
+@media (max-width: 380px) {
+    .s5__badge {
+        right: 4.36vw;
     }
 }
