@@ -1389,7 +1389,7 @@ background-clip: text;
     box-shadow: 0 -5px 30px 0 rgba(0, 0, 0, 0.25);
     backdrop-filter: blur(6px);
     border-radius: 30px 30px 0 0;
-    padding: 25px 0;
+    padding: 25px 0 10px 0;
     
     margin: 0 auto;
     width: 100%;
