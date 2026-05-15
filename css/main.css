@@ -1371,6 +1371,115 @@ background-clip: text;
 
 
 
+.footer-bg{
+    position: fixed;
+    z-index: 99;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    opacity: 0;
+    transform: translateY(150px);
+    transition: all .5s ease;
+}
+
+.footer {
+    background-color: #ffffff67;
+    box-shadow: 0 -5px 30px 0 rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(6px);
+    border-radius: 30px 30px 0 0;
+    padding: 25px 0;
+    
+    margin: 0 auto;
+    width: 100%;
+    max-width: 430px;
+}
+
+.footer-bg.active {
+    transform: translateY(0px);
+    opacity: 1;
+}
+
+.footer-timer {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+}
+
+.footer-timer-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.footer-timer-value {
+    border-radius: 150px;
+    width: 67px;
+    height: 45px;
+    background: #FFF;
+    box-shadow: 0 5px 12px 0 rgba(0, 0, 0, 0.14);
+    color: #000;
+    font-family: 'Boldonse-Regular';
+    font-weight: 400;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 117%;
+    text-align: center;
+}
+
+.footer-timer-time {
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 100%;
+    text-align: center;
+    color: #000;
+}
+
+.footerButton {
+    color: #FFF;
+    text-align: center;
+    font-family: 'Boldonse-Regular';
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 29px; /* 145% */
+    border-radius: 30px;
+    text-transform: uppercase;
+    margin: 15px auto 0 auto;
+    display: flex;
+    width: 320px;
+    height: 65px;
+    padding: 19px 26px;
+    justify-content: center;
+    align-items: center;
+    width: 293px;
+    height: 56px;
+    background: linear-gradient(84deg, #0DB3E1 2.05%, #21E9CD 96.72%);
+    transition: .2s;
+}
+
+.footerButton:active {
+    background: #4a7500;
+}
+
+
+.footer-title{
+    font-weight: 800;
+font-size: 16px;
+line-height: 100%;
+text-transform: uppercase;
+text-align: center;
+color: #000;
+padding-bottom: 10px;
+}
+
 
 @media (max-width: 440px) {
     .s1 {

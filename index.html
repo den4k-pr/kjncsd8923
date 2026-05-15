@@ -938,9 +938,44 @@
     
     <img src="./images/cards.webp" alt="Payment Methods" class="contacts__payments">
 </section>
+<div class="footer-bg" id="footer-bg">
+            <footer class="footer">
+                    <div class="footer-timer">
+                        <div class="footer-timer-item">
+                            <h3 class="footer-timer-value">23</h3>
+                            <p class="footer-timer-time">hours</p>
+                        </div>
+                        <div class="footer-timer-item">
+                            <h3 class="footer-timer-value">59</h3>
+                            <p class="footer-timer-time">minutes</p>
+                        </div>
+                        <div class="footer-timer-item">
+                            <h3 class="footer-timer-value">59</h3>
+                            <p class="footer-timer-time">seconds</p>
+                        </div>
+                    </div>
+                    <!-- <a class="footerButton payment-btn open-popup-btn">Sign up today</a> -->
+                    <a class="footerButton payment-btn open-popup-btn">Yes, - 90% OFF NOW</a>
+                </footer>
+        </div>
     </div>
+    <script defer>
+            document.addEventListener('DOMContentLoaded', () => {
+                const footer = document.getElementById('footer-bg'); // елемент, до якого додамо клас
+                if (!footer) return;
 
+                window.addEventListener('scroll', () => {
+                    // Перевіряємо, скільки проскролено
+                    if (window.scrollY >= 200) {
+                        footer.classList.add('active');
+                    } else {
+                        footer.classList.remove('active');
+                    }
+                });
+            });
+    </script>
     <script src="./js/faq.js"></script>
+    <script src="./js/timer.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="./js/slider.js"></script>
 </body>
