@@ -508,7 +508,7 @@
     border-radius: 25px;
     background-size: cover;
     background-position: center;
-    padding: 15px;
+    padding: 15px 15px 25px 15px;
     position: relative;
     box-sizing: border-box;
     display: flex;
@@ -1643,7 +1643,7 @@ background-clip: text;
     .s3__step {
         width: 75vw;
         border-radius: 5.68vw;
-        padding: 3.41vw;
+        padding: 3.41vw 3.41vw 6.41vw 3.41vw;
     }
 
     .s3__step--teal {
