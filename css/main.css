@@ -915,7 +915,7 @@ background-clip: text;
 }
 
 .s7__arrow {
-    width: 12px;
+    width: 22px;
     height: 12px;
     transition: .3s;
 }
@@ -1699,7 +1699,7 @@ background-clip: text;
     }
 
     .s5__badge {
-        right: 11.36vw;
+        right: 8.36vw;
         bottom: 1.14vw;
         font-size: 4.32vw;
         padding: 0.68vw 2.27vw;
@@ -1834,7 +1834,7 @@ background-clip: text;
     }
 
     .s7__arrow {
-        width: 2.73vw;
+        width: 4.73vw;
         height: 2.73vw;
     }
 
